@@ -1,0 +1,17 @@
+{
+  "plugin": {
+    "name": "Xtensa Architecture",
+    "version": "0.1",
+    "author": "allanlw",
+    "type": ["arch"],
+    "api": "python2",
+	"dependencies": {
+		"pip": ["r2pipe"],
+		"other": ["radare2"]
+	},
+    "description": "Architecture plugin for the Xtensa instruction set making use of radare2 for disassembly. Includes an ESIL -> LLIL translator.",
+    "license": {
+      "name": "MIT"
+    }
+  }
+}
